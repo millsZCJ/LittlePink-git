@@ -14,9 +14,11 @@
 		856EB58A261213F800CC33C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856EB589261213F800CC33C3 /* Assets.xcassets */; };
 		856EB58D261213F800CC33C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856EB58B261213F800CC33C3 /* LaunchScreen.storyboard */; };
 		856EB59D26121D4E00CC33C3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 856EB59C26121D4E00CC33C3 /* .gitignore */; };
+		A7ACF332A59E16415E687765 /* Pods_LittlePink_git.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D692AEF2140B6C716376F1 /* Pods_LittlePink_git.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22EF7924CEDE59B5A5BC8164 /* Pods-LittlePink-git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-git.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git.release.xcconfig"; sourceTree = "<group>"; };
 		856EB57D261213F500CC33C3 /* LittlePink-git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856EB580261213F500CC33C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856EB582261213F500CC33C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		856EB58C261213F800CC33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856EB58E261213F800CC33C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856EB59C26121D4E00CC33C3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		86D692AEF2140B6C716376F1 /* Pods_LittlePink_git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		965284F46B3A9464045D3066 /* Pods-LittlePink-git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-git.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7ACF332A59E16415E687765 /* Pods_LittlePink_git.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0871E8FFBE809423AB68EFB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				965284F46B3A9464045D3066 /* Pods-LittlePink-git.debug.xcconfig */,
+				22EF7924CEDE59B5A5BC8164 /* Pods-LittlePink-git.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67DF708737E23F4E35039787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D692AEF2140B6C716376F1 /* Pods_LittlePink_git.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		856EB574261213F500CC33C3 = {
 			isa = PBXGroup;
 			children = (
 				856EB59C26121D4E00CC33C3 /* .gitignore */,
 				856EB57F261213F500CC33C3 /* LittlePink-git */,
 				856EB57E261213F500CC33C3 /* Products */,
+				0871E8FFBE809423AB68EFB6 /* Pods */,
+				67DF708737E23F4E35039787 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 856EB591261213F800CC33C3 /* Build configuration list for PBXNativeTarget "LittlePink-git" */;
 			buildPhases = (
+				39C79DCEE831C8F1E54A6A75 /* [CP] Check Pods Manifest.lock */,
 				856EB579261213F500CC33C3 /* Sources */,
 				856EB57A261213F500CC33C3 /* Frameworks */,
 				856EB57B261213F500CC33C3 /* Resources */,
+				71531F7C514237154B73A3EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39C79DCEE831C8F1E54A6A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittlePink-git-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71531F7C514237154B73A3EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		856EB579261213F500CC33C3 /* Sources */ = {
@@ -287,10 +356,12 @@
 		};
 		856EB592261213F800CC33C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965284F46B3A9464045D3066 /* Pods-LittlePink-git.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3YBD7Y4S8;
 				INFOPLIST_FILE = "LittlePink-git/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,16 +370,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LittlePink-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		856EB593261213F800CC33C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22EF7924CEDE59B5A5BC8164 /* Pods-LittlePink-git.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3YBD7Y4S8;
 				INFOPLIST_FILE = "LittlePink-git/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LittlePink-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
