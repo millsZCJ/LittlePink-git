@@ -7,5 +7,7 @@ target 'LittlePink-git' do
 
   # Pods for LittlePink-git
   pod 'XLPagerTabStrip'
-
+  pod 'CHTCollectionViewWaterfallLayout/Swift'
+  pod 'YPImagePicker'
+  
 end

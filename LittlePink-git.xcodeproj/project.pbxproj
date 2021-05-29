@@ -3,31 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8535A99A2640F7D60091ED62 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9992640F7D60091ED62 /* WaterfallVC.swift */; };
+		8535A99D264135570091ED62 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A99C264135570091ED62 /* WaterfallCell.swift */; };
+		8535A9A92641471A0091ED62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8535A9A82641471A0091ED62 /* README.md */; };
+		8535A9E1264172D20091ED62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8535A9DC264172D20091ED62 /* Localizable.strings */; };
+		8535A9E2264172D20091ED62 /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8535A9DE264172D20091ED62 /* infoPlist.strings */; };
+		8535A9EE2641778A0091ED62 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9ED2641778A0091ED62 /* TabBarC.swift */; };
+		8535A9F1264178CA0091ED62 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9F0264178CA0091ED62 /* PostVC.swift */; };
+		8535A9F9264182B60091ED62 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9F8264182B60091ED62 /* Extensions.swift */; };
 		856EB581261213F500CC33C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EB580261213F500CC33C3 /* AppDelegate.swift */; };
 		856EB583261213F500CC33C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EB582261213F500CC33C3 /* SceneDelegate.swift */; };
-		856EB585261213F500CC33C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EB584261213F500CC33C3 /* ViewController.swift */; };
 		856EB588261213F500CC33C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856EB586261213F500CC33C3 /* Main.storyboard */; };
 		856EB58A261213F800CC33C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856EB589261213F800CC33C3 /* Assets.xcassets */; };
 		856EB58D261213F800CC33C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856EB58B261213F800CC33C3 /* LaunchScreen.storyboard */; };
 		856EB59D26121D4E00CC33C3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 856EB59C26121D4E00CC33C3 /* .gitignore */; };
+		85ABBEEB263E8BB1007A7635 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEEA263E8BB1007A7635 /* HomeVC.swift */; };
+		85ABBEEE263E91AB007A7635 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEED263E91AB007A7635 /* FollowVC.swift */; };
+		85ABBEF1263E91D7007A7635 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEF0263E91D7007A7635 /* DiscoveryVC.swift */; };
+		85ABBEF4263E91E7007A7635 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEF3263E91E7007A7635 /* NearByVC.swift */; };
+		85ABBEF7263E92C5007A7635 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEF6263E92C5007A7635 /* Constants.swift */; };
 		A7ACF332A59E16415E687765 /* Pods_LittlePink_git.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D692AEF2140B6C716376F1 /* Pods_LittlePink_git.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22EF7924CEDE59B5A5BC8164 /* Pods-LittlePink-git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-git.release.xcconfig"; path = "Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git.release.xcconfig"; sourceTree = "<group>"; };
+		8535A9992640F7D60091ED62 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		8535A99C264135570091ED62 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		8535A9A82641471A0091ED62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8535A9B326414A800091ED62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		8535A9B426414A800091ED62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8535A9DD264172D20091ED62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8535A9DF264172D20091ED62 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/infoPlist.strings"; sourceTree = "<group>"; };
+		8535A9E0264172D20091ED62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8535A9ED2641778A0091ED62 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		8535A9F0264178CA0091ED62 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		8535A9F8264182B60091ED62 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8535A9FB264276630091ED62 /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		856EB57D261213F500CC33C3 /* LittlePink-git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856EB580261213F500CC33C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856EB582261213F500CC33C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		856EB584261213F500CC33C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		856EB587261213F500CC33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		856EB589261213F800CC33C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856EB58C261213F800CC33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856EB58E261213F800CC33C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856EB59C26121D4E00CC33C3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		85ABBEEA263E8BB1007A7635 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		85ABBEED263E91AB007A7635 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		85ABBEF0263E91D7007A7635 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		85ABBEF3263E91E7007A7635 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
+		85ABBEF6263E92C5007A7635 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		85EB588D264F776D005D910C /* 值类型+引用类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "值类型+引用类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85EB588F264F7C8A005D910C /* ARC+循环引用.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC+循环引用.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85EB5891266275EE005D910C /* 枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		86D692AEF2140B6C716376F1 /* Pods_LittlePink_git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink_git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		965284F46B3A9464045D3066 /* Pods-LittlePink-git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink-git.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink-git/Pods-LittlePink-git.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +81,6 @@
 				965284F46B3A9464045D3066 /* Pods-LittlePink-git.debug.xcconfig */,
 				22EF7924CEDE59B5A5BC8164 /* Pods-LittlePink-git.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -62,10 +92,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8535A9A4264146850091ED62 /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				8535A9992640F7D60091ED62 /* WaterfallVC.swift */,
+				8535A99C264135570091ED62 /* WaterfallCell.swift */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		8535A9A62641468F0091ED62 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				85ABBEF6263E92C5007A7635 /* Constants.swift */,
+				8535A9F8264182B60091ED62 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8535A9DB264172D20091ED62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8535A9DC264172D20091ED62 /* Localizable.strings */,
+				8535A9DE264172D20091ED62 /* infoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		856EB574261213F500CC33C3 = {
 			isa = PBXGroup;
 			children = (
 				856EB59C26121D4E00CC33C3 /* .gitignore */,
+				8535A9A82641471A0091ED62 /* README.md */,
 				856EB57F261213F500CC33C3 /* LittlePink-git */,
 				856EB57E261213F500CC33C3 /* Products */,
 				0871E8FFBE809423AB68EFB6 /* Pods */,
@@ -86,13 +144,41 @@
 			children = (
 				856EB580261213F500CC33C3 /* AppDelegate.swift */,
 				856EB582261213F500CC33C3 /* SceneDelegate.swift */,
-				856EB584261213F500CC33C3 /* ViewController.swift */,
 				856EB586261213F500CC33C3 /* Main.storyboard */,
+				8535A9ED2641778A0091ED62 /* TabBarC.swift */,
+				8535A9A4264146850091ED62 /* Waterfall */,
+				85ABBEF9263E93E9007A7635 /* Home */,
+				8535A9A62641468F0091ED62 /* Common */,
 				856EB589261213F800CC33C3 /* Assets.xcassets */,
+				85EB588A264ED62D005D910C /* Demos+PH */,
 				856EB58B261213F800CC33C3 /* LaunchScreen.storyboard */,
+				8535A9DB264172D20091ED62 /* Resources */,
 				856EB58E261213F800CC33C3 /* Info.plist */,
 			);
 			path = "LittlePink-git";
+			sourceTree = "<group>";
+		};
+		85ABBEF9263E93E9007A7635 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				85ABBEF3263E91E7007A7635 /* NearByVC.swift */,
+				85ABBEF0263E91D7007A7635 /* DiscoveryVC.swift */,
+				85ABBEED263E91AB007A7635 /* FollowVC.swift */,
+				85ABBEEA263E8BB1007A7635 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		85EB588A264ED62D005D910C /* Demos+PH */ = {
+			isa = PBXGroup;
+			children = (
+				8535A9F0264178CA0091ED62 /* PostVC.swift */,
+				85EB5891266275EE005D910C /* 枚举.playground */,
+				85EB588D264F776D005D910C /* 值类型+引用类型.playground */,
+				8535A9FB264276630091ED62 /* 闭包.playground */,
+				85EB588F264F7C8A005D910C /* ARC+循环引用.playground */,
+			);
+			path = "Demos+PH";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 856EB574261213F500CC33C3;
 			productRefGroup = 856EB57E261213F500CC33C3 /* Products */;
@@ -155,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				856EB59D26121D4E00CC33C3 /* .gitignore in Resources */,
+				8535A9E1264172D20091ED62 /* Localizable.strings in Resources */,
 				856EB58D261213F800CC33C3 /* LaunchScreen.storyboard in Resources */,
+				8535A9E2264172D20091ED62 /* infoPlist.strings in Resources */,
+				8535A9A92641471A0091ED62 /* README.md in Resources */,
 				856EB58A261213F800CC33C3 /* Assets.xcassets in Resources */,
 				856EB588261213F500CC33C3 /* Main.storyboard in Resources */,
 			);
@@ -210,19 +300,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856EB585261213F500CC33C3 /* ViewController.swift in Sources */,
+				85ABBEF1263E91D7007A7635 /* DiscoveryVC.swift in Sources */,
+				85ABBEF4263E91E7007A7635 /* NearByVC.swift in Sources */,
+				85ABBEEB263E8BB1007A7635 /* HomeVC.swift in Sources */,
+				8535A99D264135570091ED62 /* WaterfallCell.swift in Sources */,
+				85ABBEEE263E91AB007A7635 /* FollowVC.swift in Sources */,
+				85ABBEF7263E92C5007A7635 /* Constants.swift in Sources */,
 				856EB581261213F500CC33C3 /* AppDelegate.swift in Sources */,
+				8535A9F9264182B60091ED62 /* Extensions.swift in Sources */,
+				8535A9EE2641778A0091ED62 /* TabBarC.swift in Sources */,
 				856EB583261213F500CC33C3 /* SceneDelegate.swift in Sources */,
+				8535A99A2640F7D60091ED62 /* WaterfallVC.swift in Sources */,
+				8535A9F1264178CA0091ED62 /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8535A9DC264172D20091ED62 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8535A9DD264172D20091ED62 /* zh-Hans */,
+				8535A9E0264172D20091ED62 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8535A9DE264172D20091ED62 /* infoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8535A9DF264172D20091ED62 /* zh-Hans */,
+			);
+			name = infoPlist.strings;
+			sourceTree = "<group>";
+		};
 		856EB586261213F500CC33C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				856EB587261213F500CC33C3 /* Base */,
+				8535A9B326414A800091ED62 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -231,6 +348,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				856EB58C261213F800CC33C3 /* Base */,
+				8535A9B426414A800091ED62 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -289,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -303,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -344,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,15 +480,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3YBD7Y4S8;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K624J5736B;
 				INFOPLIST_FILE = "LittlePink-git/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LittlePink-git";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhefang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.zhefang.test;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -380,15 +502,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3YBD7Y4S8;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K624J5736B;
 				INFOPLIST_FILE = "LittlePink-git/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.LittlePink-git";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhefang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.zhefang.test;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
