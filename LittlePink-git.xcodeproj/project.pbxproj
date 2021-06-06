@@ -15,12 +15,20 @@
 		8535A9EE2641778A0091ED62 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9ED2641778A0091ED62 /* TabBarC.swift */; };
 		8535A9F1264178CA0091ED62 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9F0264178CA0091ED62 /* PostVC.swift */; };
 		8535A9F9264182B60091ED62 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535A9F8264182B60091ED62 /* Extensions.swift */; };
+		853FEAA52663E2B6004FBF70 /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 853FEAA42663E2B6004FBF70 /* testVideo.mp4 */; };
+		853FEAA82663E784004FBF70 /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FEAA72663E784004FBF70 /* NoteEditVC-DragDrop.swift */; };
+		853FEB142667DCB8004FBF70 /* NoteEditVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FEB132667DCB8004FBF70 /* NoteEditVC-Config.swift */; };
+		853FEB17266CB923004FBF70 /* TextViewIAView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853FEB16266CB923004FBF70 /* TextViewIAView.xib */; };
+		853FEB1A266CB9B1004FBF70 /* TextViewIAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FEB19266CB9B1004FBF70 /* TextViewIAView.swift */; };
+		8542896726628DA600B2405F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542896626628DA600B2405F /* PhotoCell.swift */; };
+		8569208C2663757D00558604 /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569208B2663757C00558604 /* PhotoFooter.swift */; };
 		856EB581261213F500CC33C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EB580261213F500CC33C3 /* AppDelegate.swift */; };
 		856EB583261213F500CC33C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856EB582261213F500CC33C3 /* SceneDelegate.swift */; };
 		856EB588261213F500CC33C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856EB586261213F500CC33C3 /* Main.storyboard */; };
 		856EB58A261213F800CC33C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856EB589261213F800CC33C3 /* Assets.xcassets */; };
 		856EB58D261213F800CC33C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856EB58B261213F800CC33C3 /* LaunchScreen.storyboard */; };
 		856EB59D26121D4E00CC33C3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 856EB59C26121D4E00CC33C3 /* .gitignore */; };
+		85822D7B26627EEC0024ED6C /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85822D7A26627EEC0024ED6C /* NoteEditVC.swift */; };
 		85ABBEEB263E8BB1007A7635 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEEA263E8BB1007A7635 /* HomeVC.swift */; };
 		85ABBEEE263E91AB007A7635 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEED263E91AB007A7635 /* FollowVC.swift */; };
 		85ABBEF1263E91D7007A7635 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ABBEF0263E91D7007A7635 /* DiscoveryVC.swift */; };
@@ -43,6 +51,15 @@
 		8535A9F0264178CA0091ED62 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
 		8535A9F8264182B60091ED62 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8535A9FB264276630091ED62 /* 闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "闭包.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		853FEAA42663E2B6004FBF70 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		853FEAA72663E784004FBF70 /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
+		853FEB132667DCB8004FBF70 /* NoteEditVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-Config.swift"; sourceTree = "<group>"; };
+		853FEB16266CB923004FBF70 /* TextViewIAView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewIAView.xib; sourceTree = "<group>"; };
+		853FEB19266CB9B1004FBF70 /* TextViewIAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewIAView.swift; sourceTree = "<group>"; };
+		8542896626628DA600B2405F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		855305E126636A990024C34B /* 用代码实现collectionview.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "用代码实现collectionview.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8569208B2663757C00558604 /* PhotoFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		8569209726639A8600558604 /* LittlePick-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePick-Bridging-Header.h"; sourceTree = "<group>"; };
 		856EB57D261213F500CC33C3 /* LittlePink-git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePink-git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856EB580261213F500CC33C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		856EB582261213F500CC33C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +68,7 @@
 		856EB58C261213F800CC33C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856EB58E261213F800CC33C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856EB59C26121D4E00CC33C3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		85822D7A26627EEC0024ED6C /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
 		85ABBEEA263E8BB1007A7635 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		85ABBEED263E91AB007A7635 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		85ABBEF0263E91D7007A7635 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
@@ -119,6 +137,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8569209926639BBB00558604 /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				85822D7A26627EEC0024ED6C /* NoteEditVC.swift */,
+				853FEB132667DCB8004FBF70 /* NoteEditVC-Config.swift */,
+				853FEAA72663E784004FBF70 /* NoteEditVC-DragDrop.swift */,
+				8542896626628DA600B2405F /* PhotoCell.swift */,
+				8569208B2663757C00558604 /* PhotoFooter.swift */,
+				853FEB19266CB9B1004FBF70 /* TextViewIAView.swift */,
+				853FEB16266CB923004FBF70 /* TextViewIAView.xib */,
+			);
+			path = NoteEdit;
+			sourceTree = "<group>";
+		};
 		856EB574261213F500CC33C3 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +178,7 @@
 				856EB582261213F500CC33C3 /* SceneDelegate.swift */,
 				856EB586261213F500CC33C3 /* Main.storyboard */,
 				8535A9ED2641778A0091ED62 /* TabBarC.swift */,
+				8569209926639BBB00558604 /* NoteEdit */,
 				8535A9A4264146850091ED62 /* Waterfall */,
 				85ABBEF9263E93E9007A7635 /* Home */,
 				8535A9A62641468F0091ED62 /* Common */,
@@ -154,6 +187,8 @@
 				856EB58B261213F800CC33C3 /* LaunchScreen.storyboard */,
 				8535A9DB264172D20091ED62 /* Resources */,
 				856EB58E261213F800CC33C3 /* Info.plist */,
+				8569209726639A8600558604 /* LittlePick-Bridging-Header.h */,
+				853FEAA42663E2B6004FBF70 /* testVideo.mp4 */,
 			);
 			path = "LittlePink-git";
 			sourceTree = "<group>";
@@ -177,6 +212,7 @@
 				85EB588D264F776D005D910C /* 值类型+引用类型.playground */,
 				8535A9FB264276630091ED62 /* 闭包.playground */,
 				85EB588F264F7C8A005D910C /* ARC+循环引用.playground */,
+				855305E126636A990024C34B /* 用代码实现collectionview.playground */,
 			);
 			path = "Demos+PH";
 			sourceTree = "<group>";
@@ -242,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				856EB59D26121D4E00CC33C3 /* .gitignore in Resources */,
+				853FEB17266CB923004FBF70 /* TextViewIAView.xib in Resources */,
 				8535A9E1264172D20091ED62 /* Localizable.strings in Resources */,
 				856EB58D261213F800CC33C3 /* LaunchScreen.storyboard in Resources */,
+				853FEAA52663E2B6004FBF70 /* testVideo.mp4 in Resources */,
 				8535A9E2264172D20091ED62 /* infoPlist.strings in Resources */,
 				8535A9A92641471A0091ED62 /* README.md in Resources */,
 				856EB58A261213F800CC33C3 /* Assets.xcassets in Resources */,
@@ -300,18 +338,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8542896726628DA600B2405F /* PhotoCell.swift in Sources */,
 				85ABBEF1263E91D7007A7635 /* DiscoveryVC.swift in Sources */,
 				85ABBEF4263E91E7007A7635 /* NearByVC.swift in Sources */,
 				85ABBEEB263E8BB1007A7635 /* HomeVC.swift in Sources */,
 				8535A99D264135570091ED62 /* WaterfallCell.swift in Sources */,
 				85ABBEEE263E91AB007A7635 /* FollowVC.swift in Sources */,
 				85ABBEF7263E92C5007A7635 /* Constants.swift in Sources */,
+				85822D7B26627EEC0024ED6C /* NoteEditVC.swift in Sources */,
 				856EB581261213F500CC33C3 /* AppDelegate.swift in Sources */,
+				853FEAA82663E784004FBF70 /* NoteEditVC-DragDrop.swift in Sources */,
 				8535A9F9264182B60091ED62 /* Extensions.swift in Sources */,
 				8535A9EE2641778A0091ED62 /* TabBarC.swift in Sources */,
+				853FEB1A266CB9B1004FBF70 /* TextViewIAView.swift in Sources */,
 				856EB583261213F500CC33C3 /* SceneDelegate.swift in Sources */,
 				8535A99A2640F7D60091ED62 /* WaterfallVC.swift in Sources */,
 				8535A9F1264178CA0091ED62 /* PostVC.swift in Sources */,
+				8569208C2663757D00558604 /* PhotoFooter.swift in Sources */,
+				853FEB142667DCB8004FBF70 /* NoteEditVC-Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhefang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.zhefang.test;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mills/Desktop/ProjectSet/xiaohongshu/LittlePink-git/LittlePink-git/LittlePick-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -513,6 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhefang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = com.zhefang.test;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mills/Desktop/ProjectSet/xiaohongshu/LittlePink-git/LittlePink-git/LittlePick-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

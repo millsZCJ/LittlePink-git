@@ -9,5 +9,8 @@ target 'LittlePink-git' do
   pod 'XLPagerTabStrip'
   pod 'CHTCollectionViewWaterfallLayout/Swift'
   pod 'YPImagePicker'
+  pod 'MBProgressHUD'
+  pod 'SKPhotoBrowser'
+  pod 'KMPlaceholderTextView'
   
 end
